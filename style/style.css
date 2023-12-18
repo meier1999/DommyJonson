@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-inline-size: 1340px;
+    inline-size: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px ;
+    margin-top: 100px;
+}
+.card{
+    width: 320px;
+    height: 440px;
+    background-color: rgba(117, 175, 210, 0.582) ;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px ;
+    padding: 20px ;
+    box-shadow:  0 0 10px rgb(245, 200, 150),
+    0 0 20px rgb(245, 200, 150),
+    0 0 30px rgb(245, 200, 150),
+    0 0 40px rgb(245, 200, 150);
+    text-align: center;
+   color: goldenrod;
+}
+img{
+    width:100%;
+    height: 200px ;
+    border-radius: 5px ;
+}
